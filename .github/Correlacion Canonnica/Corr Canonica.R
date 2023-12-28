@@ -7,7 +7,7 @@ if (!requireNamespace("tidyverse", quietly = TRUE)) {
 library(tidyverse)
 
 # Obtener el enlace directo al archivo CSV
-url <- "https://raw.githubusercontent.com/Jerico-jp/RStudio/main/.github/workflows/correlacioncanonica.csv"
+url <- "https://raw.githubusercontent.com/Jerico-jp/RStudio/main/.github/Correlacion%20Canonnica/correlacioncanonica.csv"
 
 # Leer los datos desde el enlace
 datos <- read_csv(url)
